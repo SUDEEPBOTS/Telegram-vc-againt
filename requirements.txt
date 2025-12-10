@@ -1,0 +1,4 @@
+telethon
+py-tgcalls
+google-generativeai
+edge-tts
