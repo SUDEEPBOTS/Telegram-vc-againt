@@ -17,7 +17,7 @@ SESSION_STRING = os.environ.get("SESSION_STRING")
 # --- 2. SETUP ---
 # Gemini
 genai.configure(api_key=GEMINI_KEY)
-model = genai.GenerativeModel('gemini-1.5-flash')
+model = genai.GenerativeModel('gemini-2.5-flash')
 
 # Telegram & PyTgCalls
 try:
